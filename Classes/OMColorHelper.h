@@ -42,6 +42,7 @@ BOOL OMColorTypeIsNSColor(OMColorType colorType) { return colorType >= OMColorTy
 	NSDictionary *_constantColorsByName;
 	
 	NSRegularExpression *_rgbaUIColorRegex;
+    NSRegularExpression *_rgbHexStringUIColorRegex;
 	NSRegularExpression *_rgbaNSColorRegex;
 	NSRegularExpression *_whiteNSColorRegex;
 	NSRegularExpression *_whiteUIColorRegex;
